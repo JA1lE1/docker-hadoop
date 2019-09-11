@@ -1,4 +1,4 @@
-FROM ja1le1/hadoop-base
+FROM ja1le1/hadoop-base:2.0.0-hadoop3.1.2-java8
 
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 MAINTAINER jaylee <812126839qq@gmail.com>
