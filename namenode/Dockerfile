@@ -1,6 +1,7 @@
-FROM bde2020/hadoop-base
+FROM ja1le1/hadoop-base
 
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
+MAINTAINER jaylee <812126839qq@gmail.com>
 
 HEALTHCHECK CMD curl -f http://localhost:9870/ || exit 1
 
