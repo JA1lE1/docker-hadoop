@@ -10,6 +10,7 @@ services:
       - hadoop_namenode:/hadoop/dfs/name
     environment:
       - CLUSTER_NAME=test
+    privileged: true
     env_file:
       - ./hadoop.env
 

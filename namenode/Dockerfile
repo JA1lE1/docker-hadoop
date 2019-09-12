@@ -11,6 +11,10 @@ VOLUME /hadoop/dfs/name
 
 ADD run.sh /run.sh
 RUN chmod a+x /run.sh
+RUN apt-get update  && apt-get install -y openssh-server \
+        vim \
+        ufw \
+    && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 9870
 
